@@ -11,6 +11,8 @@ import UIKit
 class homeViewController: UIViewController {
 
     @IBOutlet weak var drinkWaterButton: UIButton!
+    @IBOutlet weak var contactsTableView: UITableView!
+    @IBOutlet weak var titlePromptLabel: UILabel!
     
     init(){
         super.init(nibName: "homeViewController", bundle: nil)
@@ -22,7 +24,8 @@ class homeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.blue
+        self.view.backgroundColor = UIColor.white
+        titlePromptLabel.textColor = UIColor.init(red: 9/255, green: 90/255, blue: 204/255, alpha: 1)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -39,5 +42,8 @@ class homeViewController: UIViewController {
         print("Settings")
     }
     
+    class ContactCell: UITableViewCell {
+        
+    }
 }
 
