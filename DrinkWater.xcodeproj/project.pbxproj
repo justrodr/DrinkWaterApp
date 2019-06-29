@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1359C8CE58C0C845F521244A /* Pods_DrinkWater.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD5DD85CFBE28052850F4EE /* Pods_DrinkWater.framework */; };
+		9AE2DA2372201DF9B771674B /* Pods_DrinkWaterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBA5340E7728CEB141B4B961 /* Pods_DrinkWaterTests.framework */; };
+		DAD6EF497B26C5A2E7A5825C /* Pods_DrinkWaterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88785DE2E720461FADF42F0 /* Pods_DrinkWaterUITests.framework */; };
 		DBFD40E422C7CD520054253B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFD40E322C7CD520054253B /* AppDelegate.swift */; };
 		DBFD40E622C7CD520054253B /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFD40E522C7CD520054253B /* homeViewController.swift */; };
 		DBFD40EB22C7CD520054253B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBFD40EA22C7CD520054253B /* Assets.xcassets */; };
@@ -14,6 +17,7 @@
 		DBFD40F922C7CD520054253B /* DrinkWaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFD40F822C7CD520054253B /* DrinkWaterTests.swift */; };
 		DBFD410422C7CD520054253B /* DrinkWaterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFD410322C7CD520054253B /* DrinkWaterUITests.swift */; };
 		DBFD411222C7CDA90054253B /* homeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBFD411122C7CDA90054253B /* homeViewController.xib */; };
+		DBFD411622C7E7540054253B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DBFD411522C7E7540054253B /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B7EE2FE54EF5E0E968AE4E2 /* Pods-DrinkWaterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrinkWaterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DrinkWaterUITests/Pods-DrinkWaterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2D96F21F875800E5F2007947 /* Pods-DrinkWater.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrinkWater.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrinkWater/Pods-DrinkWater.debug.xcconfig"; sourceTree = "<group>"; };
+		4BD5DD85CFBE28052850F4EE /* Pods_DrinkWater.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DrinkWater.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72DD323FE8CFB28148239B65 /* Pods-DrinkWaterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrinkWaterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrinkWaterTests/Pods-DrinkWaterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B383D1939957D293D412D78 /* Pods-DrinkWater.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrinkWater.release.xcconfig"; path = "Pods/Target Support Files/Pods-DrinkWater/Pods-DrinkWater.release.xcconfig"; sourceTree = "<group>"; };
+		A51BB6F31DE62116535A25D1 /* Pods-DrinkWaterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrinkWaterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DrinkWaterTests/Pods-DrinkWaterTests.release.xcconfig"; sourceTree = "<group>"; };
+		C88785DE2E720461FADF42F0 /* Pods_DrinkWaterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DrinkWaterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D70576FE677B26CCAD91CD1C /* Pods-DrinkWaterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrinkWaterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrinkWaterUITests/Pods-DrinkWaterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DBA5340E7728CEB141B4B961 /* Pods_DrinkWaterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DrinkWaterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBFD40E022C7CD520054253B /* DrinkWater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkWater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBFD40E322C7CD520054253B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBFD40E522C7CD520054253B /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,7 @@
 		DBFD410322C7CD520054253B /* DrinkWaterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkWaterUITests.swift; sourceTree = "<group>"; };
 		DBFD410522C7CD520054253B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBFD411122C7CDA90054253B /* homeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = homeViewController.xib; sourceTree = "<group>"; };
+		DBFD411522C7E7540054253B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1359C8CE58C0C845F521244A /* Pods_DrinkWater.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AE2DA2372201DF9B771674B /* Pods_DrinkWaterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAD6EF497B26C5A2E7A5825C /* Pods_DrinkWaterUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D4320A1193121A6CFCCDB326 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D96F21F875800E5F2007947 /* Pods-DrinkWater.debug.xcconfig */,
+				9B383D1939957D293D412D78 /* Pods-DrinkWater.release.xcconfig */,
+				72DD323FE8CFB28148239B65 /* Pods-DrinkWaterTests.debug.xcconfig */,
+				A51BB6F31DE62116535A25D1 /* Pods-DrinkWaterTests.release.xcconfig */,
+				D70576FE677B26CCAD91CD1C /* Pods-DrinkWaterUITests.debug.xcconfig */,
+				0B7EE2FE54EF5E0E968AE4E2 /* Pods-DrinkWaterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D974CCE059DB9A92EDAB075D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BD5DD85CFBE28052850F4EE /* Pods_DrinkWater.framework */,
+				DBA5340E7728CEB141B4B961 /* Pods_DrinkWaterTests.framework */,
+				C88785DE2E720461FADF42F0 /* Pods_DrinkWaterUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DBFD40D722C7CD520054253B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				DBFD40F722C7CD520054253B /* DrinkWaterTests */,
 				DBFD410222C7CD520054253B /* DrinkWaterUITests */,
 				DBFD40E122C7CD520054253B /* Products */,
+				D4320A1193121A6CFCCDB326 /* Pods */,
+				D974CCE059DB9A92EDAB075D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +145,7 @@
 				DBFD40EA22C7CD520054253B /* Assets.xcassets */,
 				DBFD40EC22C7CD520054253B /* LaunchScreen.storyboard */,
 				DBFD40EF22C7CD520054253B /* Info.plist */,
+				DBFD411522C7E7540054253B /* GoogleService-Info.plist */,
 			);
 			path = DrinkWater;
 			sourceTree = "<group>";
@@ -132,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBFD410822C7CD520054253B /* Build configuration list for PBXNativeTarget "DrinkWater" */;
 			buildPhases = (
+				2C9AAD969FDB8ABECB070F29 /* [CP] Check Pods Manifest.lock */,
 				DBFD40DC22C7CD520054253B /* Sources */,
 				DBFD40DD22C7CD520054253B /* Frameworks */,
 				DBFD40DE22C7CD520054253B /* Resources */,
+				89DAA690180BE49817A3A48D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBFD410B22C7CD520054253B /* Build configuration list for PBXNativeTarget "DrinkWaterTests" */;
 			buildPhases = (
+				55CF882ACE01B7CF1AC99EFC /* [CP] Check Pods Manifest.lock */,
 				DBFD40F022C7CD520054253B /* Sources */,
 				DBFD40F122C7CD520054253B /* Frameworks */,
 				DBFD40F222C7CD520054253B /* Resources */,
@@ -167,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBFD410E22C7CD520054253B /* Build configuration list for PBXNativeTarget "DrinkWaterUITests" */;
 			buildPhases = (
+				447E58D999B6F8F4C5138933 /* [CP] Check Pods Manifest.lock */,
 				DBFD40FB22C7CD520054253B /* Sources */,
 				DBFD40FC22C7CD520054253B /* Frameworks */,
 				DBFD40FD22C7CD520054253B /* Resources */,
@@ -233,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBFD40EE22C7CD520054253B /* LaunchScreen.storyboard in Resources */,
+				DBFD411622C7E7540054253B /* GoogleService-Info.plist in Resources */,
 				DBFD40EB22C7CD520054253B /* Assets.xcassets in Resources */,
 				DBFD411222C7CDA90054253B /* homeViewController.xib in Resources */,
 			);
@@ -253,6 +301,85 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C9AAD969FDB8ABECB070F29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DrinkWater-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		447E58D999B6F8F4C5138933 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DrinkWaterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55CF882ACE01B7CF1AC99EFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DrinkWaterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89DAA690180BE49817A3A48D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DrinkWater/Pods-DrinkWater-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrinkWater/Pods-DrinkWater-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DBFD40DC22C7CD520054253B /* Sources */ = {
@@ -416,6 +543,7 @@
 		};
 		DBFD410922C7CD520054253B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D96F21F875800E5F2007947 /* Pods-DrinkWater.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -431,6 +559,7 @@
 		};
 		DBFD410A22C7CD520054253B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B383D1939957D293D412D78 /* Pods-DrinkWater.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +575,7 @@
 		};
 		DBFD410C22C7CD520054253B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72DD323FE8CFB28148239B65 /* Pods-DrinkWaterTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -463,6 +593,7 @@
 		};
 		DBFD410D22C7CD520054253B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A51BB6F31DE62116535A25D1 /* Pods-DrinkWaterTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +611,7 @@
 		};
 		DBFD410F22C7CD520054253B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D70576FE677B26CCAD91CD1C /* Pods-DrinkWaterUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -496,6 +628,7 @@
 		};
 		DBFD411022C7CD520054253B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B7EE2FE54EF5E0E968AE4E2 /* Pods-DrinkWaterUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
